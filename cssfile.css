@@ -1,0 +1,78 @@
+
+*{ 
+   box-sizing: border-box;
+   padding:0;
+   margin:0;
+}
+.container
+{  display:flex;
+   justify-content:center;
+   flex-wrap:wrap;
+}
+body{ background:rgb(27,27,27);
+     }
+.card{ background:white;
+       width:270px;
+	   margin:10px;
+	   border-radius:15px;
+	 }
+.card-image{
+			 height:170px;
+			 margin-bottom:15px;
+			 background-size:cover;
+			 border-radius:15px 15px 0 0;
+			}
+.img-1{  
+        background-image:url('taj.jpg')
+	   }
+.img-2{  
+        background-image:url('suntemple2.jpeg')
+	   }
+.img-3{  
+        background-image:url('redfort.jpeg')
+	   }
+.img-4{  
+        background-image:url('mysore.jpeg')
+	   }
+.img-5{  
+        background-image:url('victoria memorial.jpg')
+	   }
+.img-6{  
+        background-image:url('hawamahal.jpg')
+	   }
+.img-7{  
+        background-image:url('jantar mantar.jpg')
+	   }
+.img-8{  
+        background-image:url('khajuraho.jpg')
+	   }
+.img-9{  
+        background-image:url('charminar.jpg')
+	   }
+.img-10{  
+        background-image:url('golden temple.jpg')
+	   }
+.card p{
+         padding:10px;
+		}
+.card a{
+        background-color:black;
+		color:white;
+		padding:15px 20px;
+		display:block;
+		text-align:center;
+		margin:20px 50px;
+		text-decoration:none;
+	   }
+.card:hover{
+            background-color:rgb(62,62,62);
+			color:white;
+			cursor:pointer;
+			transform:scale(1.03);
+			transition:all is ease;
+			}
+h2{ padding:10px;
+  }
+h1{ color:blue;
+  }
+.abc{ color:green;}
